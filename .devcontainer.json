@@ -1,0 +1,9 @@
+{
+  "features": {
+    "ghcr.io/devcontainers/features/java:1": {
+      "version": "17"  // Minecraft needs Java 17+
+    }
+  },
+  "forwardPorts": [25565],  // Minecraft default port
+  "postCreateCommand": "echo 'Minecraft server setup complete'"
+}
